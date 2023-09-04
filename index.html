@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Yeseva+One&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <title>Проект: Слайдер на JS</title>
+</head>
+<body>
+    <main>
+        <section class="main-section">     
+            <div class="container">
+                <div class="section-wrapper">
+                    <div class="left-section">
+                        <div class="block-heading">
+                            <h2 class="heading-2">Completed<br>projects</h2>
+                            <img src="./images/svg/rectangle.svg">
+                        </div>
+                        <p class="text-left-section">Only a small part of the work performed by our company is presented 
+                        on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
+                        <div class="block-left-section">
+                            <div>
+                                <h3 class="subtitle main-subtitle">City:</h3>
+                                <span class="text-main-subtitle city-text active-text">
+                                Rostov-on-Don <br>LCD admiral
+                                </span>
+                                <span class="text-main-subtitle city-text">
+                                Sochi <br>Thieves
+                                </span>
+                                <span class="text-main-subtitle city-text">
+                                Rostov-on-Don <br>Patriotic
+                                </span>
+                            </div>
+                            <div>
+                                <h3 class="subtitle main-subtitle">Apartment area:</h3>
+                                <span class="text-main-subtitle area-text active-text">81 m2</span>
+                                <span class="text-main-subtitle area-text">105 m2</span>
+                                <span class="text-main-subtitle area-text">93 m2</span>
+                            </div>
+                            <div>
+                                <h3 class="subtitle main-subtitle">Repair time:</h3>
+                                <span class="text-main-subtitle time-text active-text">3.5 months</span>
+                                <span class="text-main-subtitle time-text">4 months</span>
+                                <span class="text-main-subtitle time-text">3 months</span>
+                            </div>
+                            <div>
+                                <h3 class="subtitle main-subtitle">Repair Cost:</h3>
+                                <span class="text-main-subtitle active-text">Upon request</span>
+                            </div>
+                            
+                        </div>   
+                        <div class="service-item">
+                            <img class='arrow-left' src="./images/svg/arrow_left.svg" alt="Стрелка влево">
+                            <div class="dot active-dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <img class='arrow-right' src="./images/svg/arrow_right.svg" alt="Стрелка вправо">
+                        </div>
+                    </div>
+                    <div class="right-section">
+                    <div class="section-content-nav">
+                        <nav>
+                            <ul class="section-nav">
+                                <li class="section-nav-item"><a class="link-section-2-navigation active-link" href="#">Rostov-on-Don, Admiral</a></li>
+                                <li class="section-nav-item"><a class="link-section-2-navigation" href="#">Sochi Thieves</a></li>
+                                <li class="section-nav-item"><a class="link-section-2-navigation" href="#">Rostov-on-Don Patriotic</a></li>  
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="slider">
+                        <div class="slider-line">
+                            <img src="./images/png/image_1.png" class="image" alt="Фото первой квартиры">
+                            <img src="./images/png/image_2.png" class="image" alt="Фото второй квартиры">
+                            <img src="./images/png/image_3.png" class="image" alt="Фото третьей квартиры">
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </section>
+    </main>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

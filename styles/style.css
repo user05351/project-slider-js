@@ -1,0 +1,180 @@
+body {
+    font-weight: 400;
+    background-color: #131313;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yeseva One', cursive;
+    color: #E3B873;
+}
+
+div, p, span {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 134px;
+    height: 783px;
+}
+
+.main-section {
+    background-size: cover;
+    padding-top: 107px;
+
+}
+
+.section-wrapper {
+    display: flex;
+}
+
+.section-content-nav {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.section-nav {
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    padding: 0;
+}
+
+.section-nav-item {
+    margin-right: 55px;
+    font-family: 'Yeseva One', serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.link-section-2-navigation {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.link-section-2-navigation:hover {
+    color: #E3B873; 
+    text-decoration: underline;
+    cursor: pointer;
+} 
+
+.active-link {
+    color: #E3B873; 
+    text-decoration: underline;
+}
+
+.block-heading {
+    display: flex;
+}
+
+.heading-2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0;
+}
+
+.text-left-section {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 442px;
+}
+
+.main-subtitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+.text-main-subtitle {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.active-text {
+    display: block;
+}
+
+.block-left-section {
+    display: grid;
+    margin-top: 42px;
+    gap: 17px;
+    grid-template-columns: 190px 1fr;
+    justify-items: start;
+    text-align: start;
+}
+
+.service-item {
+    margin-top: 10%;
+    display: flex;
+}
+
+.arrow-left, .dot {
+    margin-right: 4%;
+}
+
+.left-section {
+    max-width: 442px;
+    margin-right: 50px;
+    margin-top: 55px;
+}
+
+.right-section {
+    display: block;
+    max-height: 552px;
+    max-width: 679px;
+    flex-direction: row;
+}
+
+.slider {
+    max-width: 679px;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    transition: all 0.5s;
+    align-items: center;
+}
+
+.right-section img {
+    width: 679px;
+}
+
+.service-item img.arrow-left:hover,
+.service-item img.arrow-right:hover {
+    cursor: pointer;
+}
+
+.service-item .dot:hover {
+    cursor: pointer;   
+}
+
+.dot {
+    width: 9.5px;
+    height: 9.5px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.active-dot {
+    background-color: #FFFFFF;
+}
